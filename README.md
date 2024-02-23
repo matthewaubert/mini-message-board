@@ -28,3 +28,7 @@ Create a very basic message board that includes: an index page that displays mes
 1. In my `router.post()` take the contents of the form submission (accessible as `req.body`) and push them into the messages array as an object
 
 1. At the end of the `router.post()` function use `res.redirect('/')` to send users back to the index page after submitting a new message
+
+## Deploy
+
+1. Deploy my project to the PaaS provider of my choice (Fly.io)
